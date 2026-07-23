@@ -90,7 +90,7 @@ export default function Gallery({ gambar }: Props) {
           <code className="rounded bg-white/10 px-1.5 py-0.5 text-[13px] text-[#b4ff39]">
             gambar/
           </code>{" "}
-          — target 15, sisanya kamu yang tambah sendiri. Aku capek. 🥱
+          — website hanya bsrtahan samapi tanggal 26 setelah it server web ini akan ditutup
         </p>
       </div>
 
