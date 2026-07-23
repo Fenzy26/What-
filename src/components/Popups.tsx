@@ -62,7 +62,7 @@ export function PopupSelamat() {
     mesin.sfx("tada");
     ledakkanDari(e.currentTarget);
     setBuka(false);
-    kirimToast("Hadiahmu dikirim via merpati pos 🕊️ (bohong)");
+    kirimToast("Hadiahmu dikirim via merpati pos 🕊️");
   };
 
   const tolak = () => {
@@ -93,7 +93,7 @@ export function PopupSelamat() {
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
-        aria-label="Selamat Anda menang (bohong)"
+        aria-label="Selamat Anda menang"
       >
         {/* title bar */}
         <div className="flex items-center justify-between bg-gradient-to-r from-[#1d3fc0] to-[#4f8cff] px-2.5 py-1.5">
@@ -122,7 +122,7 @@ export function PopupSelamat() {
               Klaim hadiahmu sekarang: <b>1 piring gorengan hangat</b>.
               <br />
               <span className="text-[11px] italic">
-                *ongkir ditanggung pemenang. bohong. hadiah tidak ada.
+                *ongkir dan pajak ditanggung pemenang. barang tidak sampai kami tidak peduli
               </span>
             </p>
           </div>
