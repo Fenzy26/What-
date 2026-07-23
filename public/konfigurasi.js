@@ -48,5 +48,6 @@ window.KONFIG = {
   // --- lagu BGM di folder "bgm/" (kosongkan "" untuk chiptune bawaan) ---
   bgm: [
     "Converse Pink.m4a",
+    "Converse Pink.mp3",
     ]
 };
