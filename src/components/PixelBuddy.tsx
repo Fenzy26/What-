@@ -33,18 +33,7 @@ const WARNA: Record<string, string> = {
 const MATA = new Set(["5-4", "5-5", "5-10", "5-11", "6-4", "6-5", "6-10", "6-11"]);
 
 const FRASA = [
-  "Gabut banget dah…",
-  "Tet tet tet! 🎵",
-  "Pencet lagi dong~",
-  "Waduh, jari kamu kuat ya",
-  "Aku cuma kotak kuning 😌",
-  "Jangan bilang siapa-siapa ya",
-  "Kamu sudah makan belum?",
-  "Loading… otak 404",
-  "Ampas banget hari ini",
-  "Tolong… aku bosan di sini",
-  "1 klik = 1 pahala (bohong)",
-  "Suara dari folder sound! 📁",
+  "Hey Antek-Antek Aseng",
 ];
 
 const PENCAPAIAN: Array<[number, string]> = [
@@ -108,7 +97,7 @@ export default function PixelBuddy({ daftarSound }: Props) {
       <button
         type="button"
         onClick={pencet}
-        aria-label="Pencet Si Gabut biar bunyi"
+        aria-label="Pencet Si Wowo biar bunyi"
         className="buddy-bob group relative block touch-manipulation select-none rounded-2xl border-[3px] border-[#1a1030] bg-[#232a52] p-1.5 shadow-[0_6px_0_#1a1030] transition-transform duration-100 active:translate-y-1 active:shadow-[0_2px_0_#1a1030] sm:p-2"
       >
         <span key={lompat} className={lompat > 0 ? "anim-lompat block" : "block"}>
