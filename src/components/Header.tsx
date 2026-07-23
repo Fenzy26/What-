@@ -4,7 +4,8 @@ const TEKS_MARQUEE = [
   "DILARANG KERAS BERMANFAAT DI SINI",
   "GAMBAR-GAMBAR DIBUAT DENGAN PENUH RASA MALAS",
   "JANGAN LUPA MINUM AIR PUTIH",
-  "KLIK MAKHLUK KUNING DI KANAN ➜",
+  "Btw Server website ini akan dihapus pada tanggal 26",
+  "Website ini hanya untuk uji coba saja"
 ];
 
 const DEKORASI: Array<{ emoji: string; kelas: string; tunda: string }> = [
@@ -33,16 +34,16 @@ export default function Header() {
       <div className="mx-auto w-full max-w-5xl px-4 pb-10 pt-12 sm:px-6 sm:pt-16">
         {/* stiker */}
         <div className="stiker inline-block rounded-md bg-[#ffd400] px-3 py-1.5 font-pixel text-[8px] leading-relaxed text-[#1a1030] sm:text-[9px]">
-          ★ WEBSITE RESMI (BOHONG) ★
+          ★ WEBSITE RESMI Dari distributor PT.jungkat jungkir jaya ★
         </div>
 
         {/* judul utama */}
         <h1 className="mt-6">
           <span className="block font-pixel text-[10px] tracking-widest text-[#29f3ff] sm:text-sm">
-            SEBUAH TULISAN
+            SEBUAH Website
           </span>
           <span className="judul-gabutan mt-3 block font-pixel text-[clamp(2.5rem,10vw,6rem)] leading-none text-[#ffd400]">
-            KEGABUTAN
+            Tidak Memiliki Tujuan!
           </span>
         </h1>
 
